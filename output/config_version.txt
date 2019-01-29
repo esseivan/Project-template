@@ -1,0 +1,4 @@
+0.0.0
+http://www.esseivan.ch/files/TBD/version.xml
+1
+// Use this if you don't have a software but a library or multiple tools
