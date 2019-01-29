@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_template", "Project_template\Project_template.csproj", "{956171E6-6E6D-4AB8-82AF-763484038340}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{339D2A03-BFEF-42A4-B49C-0A877D8C21D3}"
+	ProjectSection(SolutionItems) = preProject
+		output\config_version.txt = output\config_version.txt
+		postbuild_config.log = postbuild_config.log
+		postbuild_config_howToUse.log = postbuild_config_howToUse.log
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Project_Template_Installer", "Project_Template_Installer\Project_Template_Installer.vdproj", "{0E3B52DB-C377-4A56-A419-47F3CAE2A4EC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Project_Template_SilentInstaller", "Project_Template_SilentInstaller\Project_Template_SilentInstaller.vdproj", "{D1330067-A7FF-4C2E-8CDA-B292D030B6A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,10 @@ Global
 		{956171E6-6E6D-4AB8-82AF-763484038340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956171E6-6E6D-4AB8-82AF-763484038340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956171E6-6E6D-4AB8-82AF-763484038340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3B52DB-C377-4A56-A419-47F3CAE2A4EC}.Debug|Any CPU.ActiveCfg = Debug
+		{0E3B52DB-C377-4A56-A419-47F3CAE2A4EC}.Release|Any CPU.ActiveCfg = Release
+		{D1330067-A7FF-4C2E-8CDA-B292D030B6A3}.Debug|Any CPU.ActiveCfg = Debug
+		{D1330067-A7FF-4C2E-8CDA-B292D030B6A3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
