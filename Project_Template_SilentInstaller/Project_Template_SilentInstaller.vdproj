@@ -15,26 +15,56 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4202833C0C49B913D16C396041CFB04A"
-        "OwnerKey" = "8:_73DA6F28252646C990CD079EB465FC59"
+        "MsmKey" = "8:_0F1A05474B0E8861478D7246A3F0D7D0"
+        "OwnerKey" = "8:_FEA94D5A9DE94322BFFEAE92D7F69499"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_73DA6F28252646C990CD079EB465FC59"
+        "MsmKey" = "8:_71507918192646919D61E2B95688A33A"
+        "OwnerKey" = "8:_FEA94D5A9DE94322BFFEAE92D7F69499"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_71507918192646919D61E2B95688A33A"
+        "OwnerKey" = "8:_0F1A05474B0E8861478D7246A3F0D7D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8EB4B20D2EC16B42C2596E4DC844EA41"
+        "OwnerKey" = "8:_FEA94D5A9DE94322BFFEAE92D7F69499"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FEA94D5A9DE94322BFFEAE92D7F69499"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4202833C0C49B913D16C396041CFB04A"
+        "OwnerKey" = "8:_0F1A05474B0E8861478D7246A3F0D7D0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_73DA6F28252646C990CD079EB465FC59"
+        "OwnerKey" = "8:_FEA94D5A9DE94322BFFEAE92D7F69499"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8EB4B20D2EC16B42C2596E4DC844EA41"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_71507918192646919D61E2B95688A33A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,12 +109,34 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_1766FEAB59CC49EBB6C52CF90CAAC383"
+            {
+            "Name" = "8:autorun"
+            "Condition" = "8:"
+            "Object" = "8:"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:-installer"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_589CD13E_F1FF_460F_8752_FAC0F8A20546"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -100,14 +160,76 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4202833C0C49B913D16C396041CFB04A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0F1A05474B0E8861478D7246A3F0D7D0"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:EsseivaN_Lib, Version=1.3.4.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_0F1A05474B0E8861478D7246A3F0D7D0"
+                    {
+                    "Name" = "8:EsseivaN_Lib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:EsseivaN_Lib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_6052DFFB0CBA43F49675BF27C2C087FA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_71507918192646919D61E2B95688A33A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_71507918192646919D61E2B95688A33A"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_6052DFFB0CBA43F49675BF27C2C087FA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8EB4B20D2EC16B42C2596E4DC844EA41"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_4202833C0C49B913D16C396041CFB04A"
+                    "_8EB4B20D2EC16B42C2596E4DC844EA41"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -116,7 +238,7 @@
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F164D5A08E044914B4D12572E3D78CA4"
+            "Folder" = "8:_6052DFFB0CBA43F49675BF27C2C087FA"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -158,13 +280,24 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_F164D5A08E044914B4D12572E3D78CA4"
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_A4819E62026644A8AE740359C57F20D9"
+            {
+            "Name" = "8:#1921"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:StartMenuFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B2B57B84F4964E849ADB3E73D4B9717D"
                     {
-                    "Name" = "8:Project template"
+                    "Name" = "8:[Manufacturer]"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_92CB72B9260A48E09E9C99BA11721127"
+                    "Property" = "8:_4425F195C2D84B15A60C70982494C6D3"
                         "Folders"
                         {
                         }
@@ -198,7 +331,7 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Project Template"
-        "ProductCode" = "8:{951EF525-232D-41EF-8C78-798BD265A1B8}"
+        "ProductCode" = "8:{B2EFF55A-FD6A-4ADC-B1D2-882AE198183C}"
         "PackageCode" = "8:{D90F2113-9503-4C03-A9DE-8FE809F401EC}"
         "UpgradeCode" = "8:{8CFF7A05-F262-4383-A8D4-000000000000}"
         "AspNetVersion" = "8:4.0.30319.0"
@@ -222,7 +355,7 @@
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
-        "PostBuildEvent" = "8:copy /Y \"$(BuiltOuputPath)\" \"C:\\EsseivaN\\\"\r\ncopy /Y \"$(BuiltOuputPath)\" \"C:\\WorkSpace\\Personnal\\website\\html\\files\\TBD\"\r\n\"C:\\EsseivaN\\tools\\PostBuild\\PostBuild.exe\" \"C:\\WorkSpace\\Personnal\\TBD\\postbuild_config.log\""
+        "PostBuildEvent" = "8:copy /Y \"$(BuiltOuputPath)\" \"C:\\EsseivaN\\TBD\"\r\ncopy /Y \"$(BuiltOuputPath)\" \"C:\\WorkSpace\\Personnal\\website\\html\\files\\TBD\"\r\n\"C:\\EsseivaN\\tools\\PostBuild\\PostBuild.exe\" \"C:\\WorkSpace\\Personnal\\TBD\\postbuild_config.log\""
         "RunPostBuildEvent" = "3:0"
         }
         "Registry"
@@ -278,11 +411,33 @@
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
-                            "AlwaysCreate" = "11:FALSE"
+                            "AlwaysCreate" = "11:TRUE"
                             "DeleteAtUninstall" = "11:FALSE"
                             "Transitive" = "11:FALSE"
                                 "Keys"
                                 {
+                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_28974E6F067941B5A20845D946F6025A"
+                                    {
+                                    "Name" = "8:[ProductName]"
+                                    "Condition" = "8:"
+                                    "AlwaysCreate" = "11:TRUE"
+                                    "DeleteAtUninstall" = "11:TRUE"
+                                    "Transitive" = "11:FALSE"
+                                        "Keys"
+                                        {
+                                        }
+                                        "Values"
+                                        {
+                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_B06D356BD8D44F65A549B2979A758CA0"
+                                            {
+                                            "Name" = "8:version"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "ValueTypes" = "3:1"
+                                            "Value" = "8:[ProductVersion]"
+                                            }
+                                        }
+                                    }
                                 }
                                 "Values"
                                 {
@@ -319,6 +474,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3AA54CF913B247C4B9ACBB8A59621048"
+            {
+            "Name" = "8:[ProductName]"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_FEA94D5A9DE94322BFFEAE92D7F69499"
+            "Folder" = "8:_B2B57B84F4964E849ADB3E73D4B9717D"
+            "WorkingFolder" = "8:_6052DFFB0CBA43F49675BF27C2C087FA"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -718,12 +887,12 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_73DA6F28252646C990CD079EB465FC59"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FEA94D5A9DE94322BFFEAE92D7F69499"
             {
-            "SourcePath" = "8:..\\Project_template\\obj\\Release\\Project_template.exe"
+            "SourcePath" = "8:..\\Project_template\\obj\\Debug\\Project_template.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F164D5A08E044914B4D12572E3D78CA4"
+            "Folder" = "8:_6052DFFB0CBA43F49675BF27C2C087FA"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"

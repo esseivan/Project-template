@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EsseivaN.Tools;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace Project_template
 {
     public partial class frmMain : Form
     {
-        public frmMain()
+        public Logger LogManager { get; set; }
+
+        public frmMain(Logger LogManager)
         {
             InitializeComponent();
+            this.LogManager = LogManager;
         }
     }
 }
