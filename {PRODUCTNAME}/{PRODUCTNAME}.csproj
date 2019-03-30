@@ -64,7 +64,7 @@
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Release (
 copy /Y "$(TargetDir)*" "C:\EsseivaN\{ESSEIVANPATH}"
-copy /Y "$(TargetDir)*" "$(SolutionDir)output\{OUTPUTFOLDER}\"
+copy /Y "$(TargetDir)*" "$(SolutionDir)output\{OUTPUTFOLDER}"
 ) ELSE  (
 echo ATTENTION : Select RELEASE configuration to copy files
 )</PostBuildEvent>
