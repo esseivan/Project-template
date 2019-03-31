@@ -341,7 +341,7 @@
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
-        "PostBuildEvent" = "8:copy /Y \"$(BuiltOuputPath)\" \"C:\\EsseivaN\\{ESSEIVANPATH}\"\r\ncopy /Y \"$(BuiltOuputPath)\" \"C:\\WorkSpace\\Personnal\\website\\html\\files\\{WEBSITEPATH}\""
+        "PostBuildEvent" = "8:copy /Y \"$(BuiltOuputPath)\" \"C:\\EsseivaN\\apps\"\r\ncopy /Y \"$(BuiltOuputPath)\" \"C:\\WorkSpace\\Personnal\\website\\html\\files\\{WEBSITEPATH}\""
         "RunPostBuildEvent" = "3:0"
         }
         "Registry"
@@ -404,7 +404,7 @@
                                 {
                                     "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_38048A5D3D8149298947013D2349BD9A"
                                     {
-                                    "Name" = "8:[ProductName]"
+                                    "Name" = "8:{PRODUCTNAME}"
                                     "Condition" = "8:"
                                     "AlwaysCreate" = "11:TRUE"
                                     "DeleteAtUninstall" = "11:TRUE"
